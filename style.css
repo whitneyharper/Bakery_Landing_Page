@@ -5,9 +5,15 @@ body, html {
 img{
 	max-width: 100px;
 }
+
+ul {
+	list-style-type: none;
+}
+
 .welcome-menu{
 	background-color: white;
 	padding: 50px 50px;
+	position: relative;
 }
 
 .welcome-jumbo{
@@ -20,6 +26,10 @@ img{
 	margin-bottom: 50px;
 }
 
+.menu{
+	margin-bottom: 50px;
+}
+
 .menu-title{
 	text-transform: uppercase;
 	color: #5e3817;
@@ -28,6 +38,57 @@ img{
 	border-bottom: 1px solid black;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
+}
+
+.links{
+	color: black;
+	font-weight: 700;
+	font-size: 1.1rem;
+	text-decoration: none;
+	margin-bottom: 1.4rem;
+	display: block;
+	transition: color .3s ease-in-out;
+}
+
+.links:hover{
+	color: #f9ad53;
+}
+
+.social-icons{
+	display: flex;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #5e3817;
+	font-size: .9rem;
+	text-decoration: none;
+	color: #f9ad53;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.location{
+	align-self: center;
+	position: absolute;
+	bottom: 100px;
+}
+
+.address{
+	color: #5e3817;
+	font-weight: 650;
+	margin-bottom: 10px;
+}
+
+.phone-number a {
+	color: black;
+	font-size: 2rem;
+	font-weight: 700;
+	text-decoration: none;
 }
 
 #welcome{
