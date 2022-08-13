@@ -1,15 +1,19 @@
-body, html {
-	margin: 0;	
-}
-
-img{
-	max-width: 100px;
+*{
+	box-sizing: border-box;
+	margin: 0;
 }
 
 ul {
 	list-style-type: none;
 }
 
+h1{
+	font-size: 4rem;
+	font-weight: 900;
+	align-self: flex-start;
+	color: white;
+	margin-bottom: 100px;
+}
 .welcome-menu{
 	background-color: white;
 	padding: 50px 50px;
@@ -17,13 +21,44 @@ ul {
 }
 
 .welcome-jumbo{
-	background-color:bisque;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f9ad53; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #f9ad53 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #f9ad53 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #f9ad53 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
+	overflow: hidden;
+	padding: 100px
+}
+
+.croissant{
+	max-width: 800px;
+	width: 100%;
+}
+
+.status{
+	display: inline-block;
+	padding: 10px;
+	font-size: 1.3rem;
+	font-weight: 700;
+	color: white;
+	background: black;
+	border-radius: 5px;
+	align-self: flex-start;
+	margin-bottom: 10px;
 }
 
 .logo{
 	display: flex;
 	justify-content: center;
 	margin-bottom: 50px;
+}
+
+.logo img{
+	max-width: 200px;
 }
 
 .menu{
@@ -90,6 +125,7 @@ ul {
 	font-weight: 700;
 	text-decoration: none;
 }
+
 
 #welcome{
 	display: grid;
