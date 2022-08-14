@@ -14,6 +14,17 @@ h1{
 	color: white;
 	margin-bottom: 100px;
 }
+
+h2{
+	font-size: 3rem;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+span{
+	margin-right: 20px;
+}
+
 .welcome-menu{
 	background-color: white;
 	padding: 50px 50px;
@@ -41,8 +52,8 @@ h1{
 
 .status{
 	display: inline-block;
-	padding: 10px;
-	font-size: 1.3rem;
+	padding: 10px 20px;
+	font-size: 1.8rem;
 	font-weight: 700;
 	color: white;
 	background: black;
@@ -116,6 +127,7 @@ h1{
 .address{
 	color: #5e3817;
 	font-weight: 650;
+	line-height: 1.7;
 	margin-bottom: 10px;
 }
 
@@ -126,6 +138,61 @@ h1{
 	text-decoration: none;
 }
 
+.restaurant-image{
+	overflow: hidden;
+	height: 100%;
+}
+
+.restaurant-image img{
+	width: 100%;
+	
+}
+
+.restaurant-info{
+	padding: 100px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.paragraphs{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 50px;
+	line-height: 1.7;
+	color: grey;
+	font-size: 1.1rem;
+	margin-bottom: 2rem;
+}
+
+.about-link{
+	font-size: 1.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #000000;
+	font-weight: 700;
+}
+
+.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 40px;
+	background: #f9ad53; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #f9ad53 0%, #000000 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #f9ad53 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #f9ad53 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */	
+	border-radius: 50%;
+	font-size: 1.3rem;
+}
+
+.fa-chevron-right{
+	color: white;
+}
 
 #welcome{
 	display: grid;
@@ -133,6 +200,15 @@ h1{
 	width: 100%;
 	height: 100vh
 }
+
+
+#information {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 100vh;
+}
+
+
 
 
 
